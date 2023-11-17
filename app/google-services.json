@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "943169478097",
+    "project_id": "collector-d3aa2",
+    "storage_bucket": "collector-d3aa2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:943169478097:android:fee87ef41a526b90cdd4f0",
+        "android_client_info": {
+          "package_name": "com.my.collector"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "943169478097-8ofmleh621k6kc84t0ifirb7615pqthp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDssn10gOsjSDTSZpg2MHY6I7FEWJBv8rw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "943169478097-8ofmleh621k6kc84t0ifirb7615pqthp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f2f2f2"
+    tools:context=".DisplayDetailsActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="120dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="88dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="0dp"
+            android:background="@color/white"
+            android:layout_marginRight="0dp">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="230dp"
+                android:layout_height="22dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="90dp"
+                android:layout_marginTop="33dp"
+                android:layout_marginEnd="89dp"
+                android:layout_marginBottom="33dp"
+                android:text="DEVICE SCHEDULED"
+                android:textAlignment="center"
+                android:textColor="#b3b3b3" />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginRight="0dp">
+
+            <TextView
+                android:id="@+id/textview_item_name"
+                android:layout_width="wrap_content"
+                android:layout_height="39dp"
+                android:layout_above="@+id/description_details"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="69dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="20dp"
+                android:text="name"
+                android:textColor="#b3b3b3"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/description_details"
+                android:layout_width="wrap_content"
+                android:layout_height="136dp"
+                android:layout_above="@+id/imageView"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="34dp"
+                android:lines="4"
+                android:maxLines="4"
+                android:text=""
+                android:textColor="#b3b3b3"
+                android:textSize="20sp">
+
+            </TextView>
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="211dp"
+                android:layout_height="209dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="104dp"
+                android:layout_marginEnd="96dp"
+                android:layout_marginBottom="114dp"
+                app:srcCompat="@drawable/ic_launcher_foreground" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

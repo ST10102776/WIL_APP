@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Collector</string>
+    <string name="icon">Icon Image</string>
+    <string name="username">username</string>
+    <string name="password">password</string>
+    <string name="login">LOGIN</string>
+</resources>
